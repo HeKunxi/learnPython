@@ -32,3 +32,7 @@ t = ()
 # tuple with only one item
 t = (1,)
 print(t)
+t = (1,3,5,6,7)
+print(t)
+for x in t:
+	print(x)
