@@ -4,7 +4,7 @@ print(len(classmates))
 def normalPrint(list):
 	print('## normalPrint ##')
 	for n in range(0, len(list)):
-		print(list[n]) 
+		print(list[n]) # in fact function list() accepts an argument which is Iterable
 normalPrint(classmates)
 # use nagetive index to access the item from the opposite direction
 def reversePrint(list):

@@ -8,6 +8,7 @@ def pow(x, n = 2):
 
 print(pow(2))
 print(pow(4, 4))
+print(pow(3, n = 3))
 
 # default argument must be immutable
 def add_end(L = []):
